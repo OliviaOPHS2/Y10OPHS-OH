@@ -1,0 +1,14 @@
+name = str(input("Enter name:"))
+print(name)
+
+age = int(input("Enter age:"))
+print(age)
+
+bestColour = str(input("Fav colour:"))
+print(bestColour)
+
+price = float(input("Enter price:"))
+print(price)
+
+bestFood = str(input("Fav food:"))
+print(bestFood)
