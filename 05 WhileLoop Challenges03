@@ -1,0 +1,8 @@
+number1 = int(input("Enter a number"))
+total = number1
+answer = "y"
+while answer == "y":
+  number2 = int(input("Enter another number"))
+  total = total + number2
+  answer = (input("Do you want to add another number?"))
+print("The total is", total)
