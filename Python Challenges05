@@ -1,0 +1,3 @@
+name = str(input("What is your name?"))
+favSubject = str(input("What is your favourite subject"))
+print("I like that subject too")
