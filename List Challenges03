@@ -1,0 +1,13 @@
+party = []
+name1 = str(input("Enter the name of someone you want to invite to your party:"))
+party.append(name1)
+name2 = str(input("Enter the name of someone else you want to invite to your party:"))
+party.append(name2)
+name3 = str(input("Enter the name of someone else you want to invite to your party:"))
+party.append(name3)
+extras = str(input("Do you want to add anyone else?"))
+while extras == "yes":
+  names = str(input("Who else do you want to add?"))
+  party.append(names)
+  extras = str(input("Do you want to add anyone else?"))
+print(len(party))
