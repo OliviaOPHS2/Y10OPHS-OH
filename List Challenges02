@@ -2,9 +2,8 @@ cars = []
 loop = True
 while loop == True:
   carBrand = str(input("Enter a car brand or press X to exit:"))
-  cars.append(carBrand)
   if carBrand == "X":
+    loop = False
     print("Exiting...")
     print("In the list is", cars)
-    loop = False
-  
+  cars.append(carBrand)
