@@ -1,0 +1,15 @@
+notepad = open("names.txt", "w")
+
+name1 = "Olivia\n"
+name2 = "Lily\n"
+name3 = "Molly\n"
+name4 = "Ruby\n"
+name5 = "Gracie\n"
+
+notepad.write(name1)
+notepad.write(name2)
+notepad.write(name3)
+notepad.write(name4)
+notepad.write(name5)
+
+notepad.close()
